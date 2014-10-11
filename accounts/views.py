@@ -5,8 +5,10 @@ from django.contrib import messages
 from django.shortcuts import render
 from django.utils.translation import ugettext as _
 from django.views.decorators.http import require_POST
+
 from accounts.forms import UserBasicForm, UserPasswordForm
 from .models import Service
+
 
 @login_required
 def account_profile(request, basic_form=None, pass_form=None):
