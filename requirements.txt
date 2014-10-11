@@ -6,5 +6,5 @@ fnpdjango<0.2
 lxml>=2.2
 django-gravatar2
 Pillow
-
+gunicorn==17.5
 -e git+https://github.com/rczajka/django-cas-provider.git@979cc8e80c887caa8a91a86dd2ed2971bfe2bff5#egg=django-cas-provider
